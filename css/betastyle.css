@@ -61,7 +61,8 @@ p.gaibunet{
     justify-content: space-around;
     border: solid 2px rgb(0, 119, 255);
     padding: 5px;
-    width: 200px;
+    width: 200
+    px;
     text-align: center;
     text-decoration: none;
     line-height: 40px;
