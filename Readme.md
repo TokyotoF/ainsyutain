@@ -1,3 +1,2 @@
 リンクこれ
-https://tokyotof.github.io/ainsyutain/
-Webサイト構築の練習
+https://tokyotof.github.io/ainsyutain/<br>Webサイト構築の練習
