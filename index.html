@@ -11,6 +11,12 @@
 </head>
 <body background="newback.png">
   <script src="js/header.js"></script>
+  <div align="right">
+    <form>
+    <input type="radio" name="back" value="new" id="new" onclick="document.body.style.backgroundImage = 'url(newback.png)';" checked><label for="new">新型背景</label>
+    <input type="radio" name="back" value="old" id="old" onclick="document.body.style.backgroundImage = 'url(back.png)';"><label for="old">旧型背景</label>
+    </form>
+  </div>
     <p class="puri">↓超盛れた笑</p>
     <div class="flex">
     <img src="einstein.png" alt="自撮り画像" title="肖像画" width="250px" height="300px">
