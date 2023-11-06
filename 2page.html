@@ -7,7 +7,14 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <title>アインシュタイン公式ホームページ</title>
 </head>
-<body background="newback.png">
+<body background="back.png">
+    <div align="right" class="abox">
+        <div class="huwahuwa">背景画像の変更ができます！</div>
+        <form class="background">
+        <input type="radio" name="back" value="new" id="new" onclick="document.body.style.backgroundImage = 'url(newback.png)';"><label for="new">没背景</label>
+        <input type="radio" name="back" value="old" id="old" onclick="document.body.style.backgroundImage = 'url(back.png)';" checked><label for="old">旧型背景</label>
+        </form>
+      </div>
     <script src="js/header.js"></script>
     <p>違うページにジャンプするかのテスト<br>（index.html→2page.html）</p>
     <script src="js/footer.js"></script>
