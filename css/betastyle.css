@@ -121,3 +121,18 @@ p.gaibunet{
     outline: none;
     background-color: #d1f26e;
   }
+
+  .hover-bigsize img {
+    height: auto;
+    transition: transform .5s ease;
+  }
+  .hover-bigsize:hover img {
+    transform: scale(1.1);
+  }
+  .hover-bigsize_b img {
+    height: auto;
+    transition: transform .5s ease;
+  }
+  .hover-bigsize_b:hover img{
+    transform: scale(1.1);
+  }
