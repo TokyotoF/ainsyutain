@@ -122,6 +122,12 @@ p.gaibunet{
     background-color: #d1f26e;
   }
 
+  #nankochan{
+    align-items: flex-end;
+    width: 565px;
+    justify-content:space-between;
+    display:flex;
+  }
   .hover-bigsize img {
     height: auto;
     transition: transform .5s ease;
