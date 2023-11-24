@@ -4,6 +4,9 @@ p.nameclass {
     font-size: 20px;
     font-family: 'Rampart One', cursive,'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体';  
 }
+a.name{
+  text-decoration: none;
+}
 p.kick{
     font-weight: 1000;
     color:rgb(180, 54, 96);
