@@ -124,7 +124,7 @@ p.gaibunet{
 
   #nankochan{
     align-items: flex-end;
-    width: 565px;
+    width: 880px;
     justify-content:space-between;
     display:flex;
   }
@@ -133,6 +133,13 @@ p.gaibunet{
     transition: transform .5s ease;
   }
   .hover-bigsize:hover img {
+    transform: scale(1.1);
+  }
+  .hover-bigsize-2 img {
+    height: auto;
+    transition: transform .5s ease;
+  }
+  .hover-bigsize-2:hover img{
     transform: scale(1.1);
   }
   .hover-bigsize_b img {
