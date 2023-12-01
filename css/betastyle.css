@@ -1,3 +1,6 @@
+.name{
+  width: fit-content;
+}
 p.nameclass {
     font-weight: 1000;
     color:navy;
