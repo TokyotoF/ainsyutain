@@ -1,36 +1,37 @@
-p{
-  font-family: 'Osaka';
+p {
+  font-family: "Osaka";
   src: url("font/Osaka.ttc");
 }
-.name{
+.name {
   width: fit-content;
 }
 p.nameclass {
-    font-weight: 1000;
-    color:navy;
-    font-size: 20px;
-    font-family: 'Rampart One', cursive,'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体';  
+  font-weight: 1000;
+  color: navy;
+  font-size: 20px;
+  font-family: "Rampart One", cursive, "Yu Mincho Light", "YuMincho",
+    "Yu Mincho", "游明朝体";
 }
-a.name{
+a.name {
   text-decoration: none;
 }
-p.kick{
-    font-weight: 1000;
-    color:rgb(180, 54, 96);
-    font-size: 20px;
-    font-family: 'Kosugi Maru', sans-serif;
+p.kick {
+  font-weight: 1000;
+  color: rgb(180, 54, 96);
+  font-size: 20px;
+  font-family: "Kosugi Maru", sans-serif;
 }
-p.puri{
-    color:aqua;
-    font-size: 30px;
-    font-family: 'Kosugi Maru', sans-serif;
+p.puri {
+  color: aqua;
+  font-size: 30px;
+  font-family: "Kosugi Maru", sans-serif;
 }
 table,
 td {
-  font-family:'Osaka';
+  font-family: "Osaka";
   src: url("font/Osaka.ttc");
-    text-align: center;
-    background-color: white;
+  text-align: center;
+  background-color: white;
   border: 1px solid #333;
 }
 
@@ -40,125 +41,125 @@ tfoot {
   color: #f5f5f5;
 }
 .flex {
-    display:flex;
+  display: flex;
 }
 @font-face {
-    font-family: 'こども丸ゴシック';
-    src: url("../font/KodomoRounded.otf");
+  font-family: "こども丸ゴシック";
+  src: url("../font/KodomoRounded.otf");
 }
-p.gaibunet{
-    font-family: 'Kosugi Maru', sans-serif;
+p.gaibunet {
+  font-family: "Kosugi Maru", sans-serif;
 }
-.gaibu{
-    color: white;
-    background-color: #4275e4;
-    font-family: 'Kosugi Maru', sans-serif;
+.gaibu {
+  color: white;
+  background-color: #4275e4;
+  font-family: "Kosugi Maru", sans-serif;
 }
 .DivLink {
-    color:#000000;
-    font-size:120%;
-    text-decoration:none;
-    transition: all .5s;
-  }
-.DivLink:hover{
-  text-decoration:none;
+  color: #000000;
+  font-size: 120%;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.DivLink:hover {
+  text-decoration: none;
   color: #ffffff;
 }
-.DivLink{
-    font-family: 'Kosugi Maru', sans-serif;
-    position:relative
+.DivLink {
+  font-family: "Kosugi Maru", sans-serif;
+  position: relative;
 }
-.DivLink .Link{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.DivLink .Link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .pbox {
-    display: flex;
-    justify-content: space-around;
-    border: solid 2px rgb(0, 119, 255);
-    padding: 5px;
-    width: 680px;
-    text-align: center;
-    text-decoration: none;
-    line-height: 40px;
-    outline: none;
-    background-color: #00fff2;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    transition: all 0.6s ease;
-  }
-  .pbox:hover::before {
-    transform-origin: top right;
-    transform: skewX(-45deg) translateX(0);
-  }
-  .pbox::before {
-    content: '';
-    width: 135%;
-    height: 100%;
-    background-color: rgb(218, 52, 227);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transform-origin: top left;
-    transform: skewX(-45deg) translateX(-100%);
-    transition: inherit;
-  }
-  p.hug {
-    line-height: 40px;
-    font-size: 150px;
-    color: green;
-    font-family: 'Cabin', sans-serif;
-    text-align: center;
-  }
-  p.hug1{
-    font-size: 30px;
-    font-family: 'Kosugi', sans-serif;
-    text-align: center;
-  }
+  display: flex;
+  justify-content: space-around;
+  border: solid 2px rgb(0, 119, 255);
+  padding: 5px;
+  width: 500px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  outline: none;
+  background-color: #00fff2;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+.pbox:hover::before {
+  transform-origin: top right;
+  transform: skewX(-45deg) translateX(0);
+}
+.pbox::before {
+  content: "";
+  width: 135%;
+  height: 100%;
+  background-color: rgb(218, 52, 227);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform-origin: top left;
+  transform: skewX(-45deg) translateX(-100%);
+  transition: inherit;
+}
+p.hug {
+  line-height: 40px;
+  font-size: 150px;
+  color: green;
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+}
+p.hug1 {
+  font-size: 30px;
+  font-family: "Kosugi", sans-serif;
+  text-align: center;
+}
 
-  .abox{
-    font-family: 'Osaka';
-    src: url("font/Osaka.ttc");
-    float:right;
-    margin-left: auto;
-    margin-right: 0;
-    border: solid 2px rgb(255, 136, 0);
-    padding: 5px;
-    line-height: 40px;
-    outline: none;
-    background-color: #d1f26e;
-  }
+.abox {
+  font-family: "Osaka";
+  src: url("font/Osaka.ttc");
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+  border: solid 2px rgb(255, 136, 0);
+  padding: 5px;
+  line-height: 40px;
+  outline: none;
+  background-color: #d1f26e;
+}
 
-  #nankochan{
-    align-items: flex-end;
-    width: 880px;
-    justify-content:space-between;
-    display:flex;
-  }
-  .hover-bigsize img {
-    height: auto;
-    transition: transform .5s ease;
-  }
-  .hover-bigsize:hover img {
-    transform: scale(1.1);
-  }
-  .hover-bigsize-2 img {
-    height: auto;
-    transition: transform .5s ease;
-  }
-  .hover-bigsize-2:hover img{
-    transform: scale(1.1);
-  }
-  .hover-bigsize_b img {
-    height: auto;
-    transition: transform .5s ease;
-  }
-  .hover-bigsize_b:hover img{
-    transform: scale(1.1);
-  }
+#nankochan {
+  align-items: flex-end;
+  width: 880px;
+  justify-content: space-between;
+  display: flex;
+}
+.hover-bigsize img {
+  height: auto;
+  transition: transform 0.5s ease;
+}
+.hover-bigsize:hover img {
+  transform: scale(1.1);
+}
+.hover-bigsize-2 img {
+  height: auto;
+  transition: transform 0.5s ease;
+}
+.hover-bigsize-2:hover img {
+  transform: scale(1.1);
+}
+.hover-bigsize_b img {
+  height: auto;
+  transition: transform 0.5s ease;
+}
+.hover-bigsize_b:hover img {
+  transform: scale(1.1);
+}
